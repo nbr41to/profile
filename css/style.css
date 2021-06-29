@@ -20,9 +20,8 @@
   font-size: 20px;
   color: #fff;
   padding: 10px 21px;
-  background-color: #393E46;
+  background-color: #393e46;
 }
-
 
 .nav ul {
   display: flex;
@@ -32,7 +31,7 @@
   display: block;
   margin-left: 24px;
   text-decoration: none;
-  color: #24292E;
+  color: #24292e;
 }
 
 .nav ul li:first-child a {
@@ -54,10 +53,9 @@
 .hero {
   width: 100%;
   height: 600px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
   margin-bottom: 89px;
 }
-
 
 /* about */
 .about {
@@ -74,7 +72,7 @@
 .section__title {
   display: inline-block;
   font-size: 32px;
-  color: #383E45;
+  color: #383e45;
   font-weight: bold;
   padding-bottom: 12px;
   border-bottom: 2px solid #000;
@@ -83,7 +81,7 @@
 
 .about__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -99,9 +97,8 @@
   text-align: left;
 }
 
-
 .about__text--area h3 {
-  color: #383E45;
+  color: #383e45;
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -109,7 +106,7 @@
 .about__text--area p {
   font-size: 14px;
   line-height: 1.8;
-  color: #383E45;
+  color: #383e45;
 }
 
 @media screen and (max-width: 768px) {
@@ -134,7 +131,6 @@
     margin-bottom: 15px;
   }
 }
-
 
 /* Bicycle */
 .bicycle {
@@ -168,7 +164,7 @@
 .bicycle__img {
   width: 100%;
   height: 174px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
   margin-bottom: 13px;
 }
 
@@ -188,7 +184,7 @@
   }
 
   .bicycle__container {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .bicycle__wrap {
